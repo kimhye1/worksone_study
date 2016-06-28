@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					4A6513861D2245AA00BF97AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9UZ8XJ73WT;
 					};
 					4A65139F1D2245AA00BF97AD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -415,9 +416,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WorksOneStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WM.WorksOneStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = WMWorksOneStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,9 +428,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WorksOneStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WM.WorksOneStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = WMWorksOneStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +501,7 @@
 				4A6513B61D2245AA00BF97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6513B71D2245AA00BF97AD /* Build configuration list for PBXNativeTarget "WorksOneStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				4A6513B91D2245AA00BF97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6513BA1D2245AA00BF97AD /* Build configuration list for PBXNativeTarget "WorksOneStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				4A6513BC1D2245AA00BF97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
