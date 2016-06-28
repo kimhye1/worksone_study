@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WMHViewController : UIViewController
 
+@property (nonatomic, strong) UIButton *tableViewButton;
 
 @end
 
