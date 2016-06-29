@@ -6,8 +6,14 @@
 //  Copyright © 2016년 worksmobile. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface WMSChangeTempFormat : NSObject
+@interface WMSChangeTempFormat : UIViewController
+
+@property (strong, nonatomic) IBOutlet UITextField *tempFFormatTextField;
+@property (strong, nonatomic) IBOutlet UITextField *tempCFormatTextField;
+
+- (IBAction)tempChangeAction:(id)sender;
+- (IBAction)backAction:(id)sender;
 
 @end

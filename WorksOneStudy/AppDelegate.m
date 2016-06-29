@@ -15,7 +15,6 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] init];
     self.window = window;

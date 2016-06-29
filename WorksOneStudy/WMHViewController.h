@@ -11,6 +11,7 @@
 @interface WMHViewController : UIViewController
 
 @property (nonatomic, strong) UIButton *tableViewButton;
+@property (nonatomic, strong) UIButton *tableViewButton2;
 
 @end
 

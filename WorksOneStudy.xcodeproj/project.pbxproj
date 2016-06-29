@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A4344DC1D23577400284FBF /* WMSChangeTempFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4344DB1D23577400284FBF /* WMSChangeTempFormat.m */; };
 		4A65138C1D2245AA00BF97AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A65138B1D2245AA00BF97AD /* main.m */; };
 		4A65138F1D2245AA00BF97AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A65138E1D2245AA00BF97AD /* AppDelegate.m */; };
 		4A6513921D2245AA00BF97AD /* WMHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6513911D2245AA00BF97AD /* WMHViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A4344DA1D23577400284FBF /* WMSChangeTempFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSChangeTempFormat.h; sourceTree = "<group>"; };
+		4A4344DB1D23577400284FBF /* WMSChangeTempFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSChangeTempFormat.m; sourceTree = "<group>"; };
 		4A6513871D2245AA00BF97AD /* WorksOneStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorksOneStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A65138B1D2245AA00BF97AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A65138D1D2245AA00BF97AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4344D91D23570200284FBF /* SH_01_changeTemperatureFormat */ = {
+			isa = PBXGroup;
+			children = (
+				4A4344DA1D23577400284FBF /* WMSChangeTempFormat.h */,
+				4A4344DB1D23577400284FBF /* WMSChangeTempFormat.m */,
+			);
+			name = SH_01_changeTemperatureFormat;
+			sourceTree = "<group>";
+		};
 		4A65137E1D2245AA00BF97AD = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		4A6513891D2245AA00BF97AD /* WorksOneStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4A4344D91D23570200284FBF /* SH_01_changeTemperatureFormat */,
 				4A65138D1D2245AA00BF97AD /* AppDelegate.h */,
 				4A65138E1D2245AA00BF97AD /* AppDelegate.m */,
 				4A6513901D2245AA00BF97AD /* WMHViewController.h */,
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					4A6513861D2245AA00BF97AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = YFUWNUL4S4;
 					};
 					4A65139F1D2245AA00BF97AD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4344DC1D23577400284FBF /* WMSChangeTempFormat.m in Sources */,
 				4A6513921D2245AA00BF97AD /* WMHViewController.m in Sources */,
 				4A65138F1D2245AA00BF97AD /* AppDelegate.m in Sources */,
 				4A65138C1D2245AA00BF97AD /* main.m in Sources */,
@@ -415,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WorksOneStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WM.WorksOneStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WorksOneStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WM.WorksOneStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +517,7 @@
 				4A6513B61D2245AA00BF97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6513B71D2245AA00BF97AD /* Build configuration list for PBXNativeTarget "WorksOneStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +526,7 @@
 				4A6513B91D2245AA00BF97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6513BA1D2245AA00BF97AD /* Build configuration list for PBXNativeTarget "WorksOneStudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +535,7 @@
 				4A6513BC1D2245AA00BF97AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
